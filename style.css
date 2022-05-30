@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+}
+
+.art{
+    /* height: 45rem;
+    width: 35rem; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background: white;
+    margin: 2rem;
+    min-height: auto;
+    min-width: auto;
+}
+
+.art img{
+    height: 10rem;
+    width: 20rem;
+    margin: 2rem;
+}
+
+.art h2{
+    font-size: 7rem;
+}
+
+.art p{
+    max-width: 20rem;
+    font-size: 2rem;
+}
+
+.art h3{
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+.art h4{
+    font-size: 1.5rem;
+}
