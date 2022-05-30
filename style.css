@@ -10,24 +10,24 @@ html{
 
 body{
     min-height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #eee;
+    flex-wrap: wrap;
 }
 
 .art{
-    /* height: 45rem;
-    width: 35rem; */
+    /* height: 45rem; */
+    width: 35rem;
     display: flex;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
     padding: 2rem;
     background: white;
     margin: 2rem;
     min-height: auto;
-    min-width: auto;
 }
 
 .art img{
@@ -37,7 +37,7 @@ body{
 }
 
 .art h2{
-    font-size: 7rem;
+    font-size: 5rem;
 }
 
 .art p{

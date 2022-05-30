@@ -20,11 +20,11 @@ $result = $connection->query('SELECT * FROM `merch`');
 
     <?php foreach ($result as $row) : ?>
         <article class="art">
-            <h2>Mok</h2>
-            <img src="img/mok.webp" alt="">
-            <p>De mok is mooi en leuk om uit te drinken</p>
-            <h3>30,-</h3>
-            <h4>Voorraad: 2</h3>
+            <h2><?php echo $row['productnaam']; ?></h2>
+            <img src="img/<?php echo $row['productfoto']; ?>" alt="t werkt niet">
+            <p><?php echo $row['productbeschrijving']; ?></p>
+            <h3><?php echo $row['productprijs']; ?></h3>
+            <h4>Voorraad:<?php echo $row['voorraad']; ?></h3>
         </article>
     <?php endforeach; ?>
 
