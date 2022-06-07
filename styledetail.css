@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(121, 121, 121);
+    flex-wrap: wrap;
+}
+
+.artikel{
+    background: white;
+    width: 190rem;
+    height: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.artikel h2{
+    font-size: 700%;
+    margin-bottom: 4rem;
+}
+
+.artikel img{
+    height: 30%;
+    width: 20%;
+    margin-bottom: 4rem;
+}
+
+.artikel h3{
+    font-size: 400%;
+    margin-bottom: 4rem;
+}
+
+.artikel p{
+    font-size: 200%;
+    margin-bottom: 4rem;
+    max-width: 100rem;
+}

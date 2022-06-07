@@ -25,9 +25,11 @@ $result = $connection->query('SELECT * FROM `merch`');
             <p><?php echo $row['productbeschrijving']; ?></p>
             <h3><?php echo $row['productprijs']; ?></h3>
             <h4>Voorraad:<?php echo $row['voorraad']; ?></h3>
+            <a href="details.php?id=<?php echo $row['id']; ?>">Meer info</a>
         </article>
     <?php endforeach; ?>
 
 </body>
-
 </html>
+
+
