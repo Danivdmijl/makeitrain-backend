@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+form{
+    width: 100rem;
+    height: 100rem;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("https://cdn.discordapp.com/attachments/976173713110224956/976233818501574666/Untitled-1_1920x1080.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header, footer{
+    background-color: #7d0003;
+    color: white;
+    height: 3.7rem;
+    font-size: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.Bannergif{
+    max-height: 5.5rem;
+}
+
+main{
+    padding: 4rem;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+nav{
+    width: 60vw;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+nav > ul > li{
+    width: 47%;
+    height: 100%;
+}
+
+.active{
+    background: #d20005;
+}
+
+nav > ul > li > a{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align-last: center;
+    line-height: 3.7rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+@media(max-width:1440px){
+	
+}
+@media(max-width:1366px){
+.contact-w3 {
+    width: 32%;	
+}
+}
+@media(max-width:1280px){
+.contact-w3 {
+    width: 35%;	
+}
+}
+@media(max-width:1080px){
+.contact-w3 {
+    width: 40%;
+}
+.header h1 {
+    font-size: 2.8em;	
+}
+@media(max-width:991px){
+.contact-w3 {
+    width: 43%;
+}
+	
+}
+@media(max-width:800px){
+.contact-right-w3 {
+    float: left;
+    width: 45%;
+    margin-right: 7%;
+}
+.contact-right-w3l {
+    float: left;
+    width: 45%;
+}
+.contact-w3 input[type="text"], .contact-w3 textarea {
+    width: 94%;	
+}
+.contact-w3 {
+    width: 50%;
+}
+}
+@media(max-width:768px){
+.contact-w3 {
+    width: 52%;
+}	
+}
+@media(max-width:736px){
+.contact-w3 {
+    width: 55%;
+	margin: 3em auto 0;
+}
+.header {
+    margin-top: 3em;
+}
+.header h1 {
+    font-size: 2.5em;
+}	
+}
+@media(max-width:667px){
+.contact-w3 {
+    width: 57%;
+}	
+}
+@media(max-width:640px){
+	
+}
+@media(max-width:600px){
+.contact-w3 {
+    width: 63%;
+}
+.footer-w3-agile {
+    padding: 2em 0;
+}	
+}
+@media(max-width:568px){
+.contact-w3 {
+    width: 65%;
+}	
+}
+@media(max-width:480px){
+.header h1 {
+    font-size: 2.3em;
+}
+.contact-w3 {
+    width: 74%;
+}
+.contact-left-w3 {
+    float: left;
+    width: 100%;
+    margin-right: 0;
+}	
+.contact-right-w3l {
+    float: left;
+    width: 100%;
+    margin-right: 0;
+    margin-top: .5em;
+}
+.contact-w3 input[type="text"], .contact-w3 textarea {
+    padding: 0.6em;
+    font-size: 0.9em;	
+}
+.contact-w3 textarea {
+    resize: none;
+    height: 130px;
+}
+}
+@media(max-width:414px){
+.header h1 {
+    font-size: 1.8em;
+}
+.contact-w3 label {
+    font-size: 0.9em !important;
+}
+.contact-w3 input[type="submit"] {
+    font-size: 0.95em;
+}
+@media(max-width:384px){
+.contact-w3 {
+    width: 80%;
+    padding: 1em;
+	margin: 2em auto 0;
+}
+.header {
+    margin-top: 2em;
+}
+.contact-w3 input[type="submit"] {
+    padding: 0.7em;	
+}
+@media(max-width:375px){
+	
+}
+@media(max-width:320px){
+.header h1 {
+    font-size: 1.5em;
+}
+.contact-w3 input[type="submit"] {
+    padding: 0.7em;
+    font-size: 0.8em;
+}
+.footer-w3-agile p {
+    font-size: .85em;	
+}
+}

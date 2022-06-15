@@ -37,7 +37,7 @@ $product = $statement->fetch(PDO::FETCH_ASSOC);
         <h3><?php echo $product['productprijs']; ?></h3>
         <p><?php echo $product['productbeschrijving']; ?></p>
         <h4>Voorraad:<?php echo $product['voorraad']; ?></h3>
-
+        <a href="contactpagina.php">Contact</a>
     </article>
     <!-- <p><?php echo $_GET['id'] ?></p> -->
 </body>
